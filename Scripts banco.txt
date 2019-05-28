@@ -1,0 +1,30 @@
+CREATE TABLE [dbo].[Logs](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[UserID] [nchar](50) NOT NULL,
+	[Data] [datetime] NOT NULL,
+	[Operacao] [varchar](max) NOT NULL,
+ CONSTRAINT [PK_Logs] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+
+GO
+
+--------------------------------------------
+
+CREATE TABLE [dbo].[Registration](
+	[UserID] [nchar](50) NOT NULL,
+	[UserTipo] [nchar](50) NOT NULL,
+	[UserSenha] [nchar](50) NOT NULL,
+	[UserName] [nchar](150) NOT NULL,
+	[UserContato] [nchar](50) NOT NULL,
+	[UserEmail] [nchar](150) NULL,
+	[DataCadastro] [datetime] NOT NULL,
+ CONSTRAINT [PK_Registration] PRIMARY KEY CLUSTERED 
+(
+	[UserID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
