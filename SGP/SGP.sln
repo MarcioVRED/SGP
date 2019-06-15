@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SGP", "SGP\SGP.csproj", "{C4580529-5202-45DD-AA22-D933B348397A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4580529-5202-45DD-AA22-D933B348397A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4580529-5202-45DD-AA22-D933B348397A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4580529-5202-45DD-AA22-D933B348397A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4580529-5202-45DD-AA22-D933B348397A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E51D9DAE-28B6-4225-973F-1BD8DCE62660}
+	EndGlobalSection
+EndGlobal
